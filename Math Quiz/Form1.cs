@@ -154,6 +154,10 @@ namespace Math_Quiz
                 // by updating the Time Left label.
                 timeLeft = timeLeft - 1;
                 timeLabel.Text = timeLeft + " seconds";
+                if (timeLeft <= 5)
+                {
+
+                }
             }
             else
             {
@@ -176,6 +180,16 @@ namespace Math_Quiz
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void theDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
         {
 
         }
