@@ -133,6 +133,8 @@ namespace Math_Quiz
         private void startButton_Click(object sender, EventArgs e)
         {
             StartTheQuiz();
+            //set start timeLabel color WHITE
+            this.timeLabel.BackColor = System.Drawing.Color.White;
             startButton.Enabled = false;
         }
 
@@ -154,9 +156,11 @@ namespace Math_Quiz
                 // by updating the Time Left label.
                 timeLeft = timeLeft - 1;
                 timeLabel.Text = timeLeft + " seconds";
+                //Change timeLabel background color to RED
+                //if time left <= 5
                 if (timeLeft <= 5)
                 {
-
+                    this.timeLabel.BackColor = System.Drawing.Color.Red;
                 }
             }
             else
