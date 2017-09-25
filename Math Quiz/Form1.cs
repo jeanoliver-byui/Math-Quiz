@@ -1,6 +1,6 @@
 ﻿//****************************************
 // Math Quiz
-// BYUi - CIT365
+// BYUi - CIT365 -Jason Blazzard
 // Author: Jean Alexandre de Oliveira
 //****************************************
 using System;
@@ -171,6 +171,11 @@ namespace Math_Quiz
         }
 
         private void timeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
         }
