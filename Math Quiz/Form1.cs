@@ -1,4 +1,9 @@
-﻿using System;
+﻿//****************************************
+// Math Quiz
+// BYUi - CIT365
+// Author: Jean Alexandre de Oliveira
+//****************************************
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
